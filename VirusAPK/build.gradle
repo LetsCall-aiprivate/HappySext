@@ -1,0 +1,4 @@
+plugins { id 'com.android.application' }
+repositories { google() mavenCentral() }
+android { namespace 'com.virus.horrible'; compileSdk 34; defaultConfig { applicationId 'com.virus.horrible'; minSdk 21; targetSdk 34; versionCode 1; versionName '1.0' } }
+dependencies {}
